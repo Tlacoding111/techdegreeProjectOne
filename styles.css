@@ -3,8 +3,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: lightskyblue;
+  color: #222222;
+  background: beige;
 }
 /* Link Styles */
 
@@ -49,24 +49,24 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url("images/apartment.jpg") no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 header {
   line-height: 1.5;
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2) rotate(720deg);
 }
 .tag {
   background-color: #efefef;
@@ -90,7 +90,7 @@ header .profile-image:hover {
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0499ff;
 }
 
 ul.skills {
@@ -115,6 +115,7 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+  border-bottom: 1px solid black;
 }
 
 footer .copyright {
@@ -143,9 +144,7 @@ a.social {
   opacity: .5;
   transition: all .25s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
