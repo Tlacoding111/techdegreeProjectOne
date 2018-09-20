@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightskyblue;
+}
+
+.main-image {
+    border: solid 4px black;
+    border-radius: 50%;
+}
+
+h1 {
+    background-color: white;
+    padding: 8px;
+}
+
+.section-title {
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+footer {
+    text-align: center;
+}
