@@ -145,6 +145,27 @@ a.social {
   transition: all .25s;
 }
 
+/*====
+Resume CSS
+======*/
+
+#headerResume{
+  background: url("images/capitol.jpg") no-repeat top center ;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.me {
+  background: white;
+  padding: 5px;
+}
+
+/*========
+Social Media
+=========*/
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
